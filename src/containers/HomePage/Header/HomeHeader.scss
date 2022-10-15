@@ -1,0 +1,179 @@
+.header {
+    margin: 10px;
+
+    .header-containers {
+        display: flex;
+
+        .left-header {
+            width: 25%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            svg.bar {
+                width: 20px;
+                color: #777;
+                margin-left: 20%;
+            }
+
+            .logo {
+                background: url("../../../assets/images/logo-booking-care.svg") center center no-repeat;
+                width: 40%;
+                height: 60%;
+            }
+        }
+
+        .center-header {
+            width: 50%;
+
+            .justify-content-center.nav {
+                line-height: 10px;
+
+                .main-nav {
+                    font-size: 12px;
+                    font-weight: 700;
+                    color: black;
+                }
+
+                .sub-nav {
+                    font-size: 12px;
+                    color: black;
+                }
+            }
+        }
+
+        .right-header {
+            width: 25%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            svg.question {
+                width: 15px;
+            }
+
+            span.support {
+                color: #777;
+                font-size: 16px;
+                font-weight: 700;
+                padding-right: 30px;
+                cursor: pointer;
+            }
+
+            .vn {
+                color: black;
+                padding-right: 10px;
+                cursor: pointer;
+
+                &.active {
+                    color: #f7d800;
+                }
+            }
+
+            .en {
+                color: black;
+                cursor: pointer;
+
+                &.active {
+                    color: #f7d800;
+                }
+            }
+        }
+    }
+}
+
+.banner {
+    .banner-container {
+        background: url("../../../assets/images/bookingcare-cover-4.jpg");
+        height: 530px;
+        width: 100%;
+        background-size: cover;
+
+        .banner-title-main {
+            text-shadow: 1px 1px 1px #333;
+            font-size: 32px;
+            text-align: center;
+            color: white;
+            padding-top: 4%;
+        }
+
+        .banner-title-sub {
+            text-shadow: 1px 1px 1px #333;
+            font-size: 32px;
+            text-align: center;
+            color: white;
+        }
+
+        .banner-search {
+            width: 455px;
+            height: 50px;
+            background-color: #f7d800;
+            border-radius: 40px;
+            margin: 0 auto;
+            margin-top: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+
+            input.search-input {
+                width: 360px;
+                background: transparent;
+                border: none;
+                outline: none;
+            }
+
+            svg.bi.bi-search {
+                color: black;
+                margin-left: 5%;
+            }
+
+            .search-text {
+                margin-left: 4%;
+                font-size: 16px;
+                color: black;
+            }
+        }
+
+        .banner-background-option {
+            height: 145px;
+            background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 1));
+
+            .banner-option {
+                display: flex;
+                justify-content: space-evenly;
+                margin-top: 10%;
+
+                .wap-option {
+
+                    .wap-option-item {
+                        background: white;
+                        border-radius: 50%;
+                        width: 60px;
+                        height: 60px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        box-shadow: #333 1px 1px 1px;
+
+                        .option-item {
+                            width: 40px;
+                        }
+                    }
+
+                    .option-text {
+                        color: black;
+                        font-weight: 500;
+                        font-size: 16px;
+                        width: 60px;
+                        text-align: center;
+                        cursor: pointer;
+                    }
+
+                    .option-text:hover {
+                        color: #2fc0d7;
+                    }
+                }
+            }
+        }
+    }
+}
