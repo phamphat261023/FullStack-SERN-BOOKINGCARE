@@ -1,5 +1,9 @@
 .header {
-    margin: 10px;
+    position: fixed;
+    padding: 10px;
+    width: 100%;
+    background: white;
+    z-index: 999999;
 
     .header-containers {
         display: flex;
@@ -94,7 +98,7 @@
             font-size: 32px;
             text-align: center;
             color: white;
-            padding-top: 4%;
+            padding-top: 5%;
         }
 
         .banner-title-sub {

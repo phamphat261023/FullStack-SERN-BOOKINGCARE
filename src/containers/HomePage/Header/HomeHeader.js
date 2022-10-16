@@ -5,7 +5,6 @@ import "./HomeHeader.scss";
 import { connect } from "react-redux";
 import { FormattedMessage } from "react-intl";
 import { LANGUAGES } from "../../../utils";
-
 import { changeLanguageApp } from "../../../store/actions";
 
 class HomeHeader extends Component {
