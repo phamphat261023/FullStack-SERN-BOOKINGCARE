@@ -24,10 +24,15 @@ let updateUserService = (data) => {
   return axios.put("/api/update-user", data);
 };
 
+let getAllcodeService = (inputType) => {
+  return axios.get(`/api/allcode?type=${inputType}`);
+};
+
 export {
   getAllUsers,
   createNewUserService,
   deleteUserService,
   updateUserService,
   handleLoginAPI,
+  getAllcodeService,
 };

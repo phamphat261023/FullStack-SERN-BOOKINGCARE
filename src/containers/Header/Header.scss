@@ -9,12 +9,31 @@
     height: 40px;
     position: relative;
 
+    // li.menu-group {
+    //     border-left: none;
+    //     font-weight: 500;
+
+    //     .menu-group-name {
+    //         line-height: 40px;
+    //         padding: 0px 20px;
+    //         border-right: none;
+    //     }
+
+    //     .menu-group-name:first-child {
+    //         border-left: none;
+    //     }
+    // }
+
 
 
     .language {
 
         display: flex;
         align-items: center;
+
+        span.welcome {
+            margin-right: 10px;
+        }
 
 
         .vi {

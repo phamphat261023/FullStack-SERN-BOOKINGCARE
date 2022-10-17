@@ -18,9 +18,9 @@ class About extends Component {
                     height="400"
                     src="https://www.youtube.com/embed/v4pgci2s980?list=PLncHg6Kn2JT4smWdJceM0bDg4YUF3yqLu"
                     title="#1 WHY NODE ? NODE.JS LÀ CÁI QUÁI GÌ  | Node.JS Cơ Bản Cho Beginners Từ A Đến Z"
-                    frameborder="0"
+                    frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
+                    allowFullScreen
                   ></iframe>
                 </div>
               </div>
