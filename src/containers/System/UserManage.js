@@ -93,7 +93,6 @@ class UserManage extends Component {
       } else {
         alert(res.userDelete.errMessage);
       }
-      console.log("check res delete from server: ", res);
     } catch (e) {
       console.log(e);
     }

@@ -1,0 +1,24 @@
+.user-redux-container {
+    label.upload-img {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        border: 1px solid gainsboro;
+        border-radius: 5px;
+        padding: 5px;
+        width: 105px;
+        background: #0d6efd;
+        color: white;
+        cursor: pointer;
+    }
+
+    .preview-img {
+        width: 200px;
+        position: absolute;
+        border: 1px solid black;
+        height: 80px;
+        border-radius: 5px;
+        background: center center no-repeat;
+        background-size: contain;
+    }
+}
